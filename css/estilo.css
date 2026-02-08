@@ -1,0 +1,33 @@
+#home{
+    background: #ffc107;
+    color: white;
+}
+
+.caixa{
+    padding: 60px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a{
+    margin: 5px 15px;
+}
+
+/* Tamanho padrão (para celulares pequenos) */
+h1 {
+    font-size: 1.8rem;
+    word-wrap: break-word; 
+}
+
+/* Para telas de iPhone e superiores (acima de 375px) */
+@media (min-width: 375px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+}
+
+/* Para Tablets e Desktops (acima de 768px) */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+}
